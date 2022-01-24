@@ -43,7 +43,8 @@ export const Todolist = (props: PropsType) => {
     <div>
       <h3>
         <EditableSpan title={props.title} onChange={changeTodolistTitle}/>
-        <button onClick={removeTodolist}>x</button></h3>
+        <button onClick={removeTodolist}>x</button>
+      </h3>
       <AddItemForm addItem={addTask}/>
       <ul>
         {
